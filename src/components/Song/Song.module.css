@@ -1,0 +1,40 @@
+.container {
+  padding: 18px;
+  border-radius: 14px;
+  border: 1px solid #d9d9d9;
+  box-shadow: 10px 10px 15px -20px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 15px -20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 15px -20px rgba(0, 0, 0, 0.75);
+  transition: 200ms all ease;
+}
+.container:hover {
+  background-color: #fafafa;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+}
+
+.singer {
+  color: #919191;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.no {
+  font-size: 24px;
+}
